@@ -1,0 +1,90 @@
+.partition {
+    display: grid;
+    grid-template-columns: 221px auto;
+  }
+  
+  .rightside {
+     /* background-color: rgb(211, 199, 223); */
+    box-shadow: 2px 0px 1px 1px #f4f5fa;
+    }
+.post_opt {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    column-gap: 10px;
+    justify-content: end;
+    padding-top: 10px;
+}
+.add-new-post {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: black;
+}
+.post-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+.addpost {
+    max-width: 380px;
+    margin:  auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+textarea {
+    border: 1px solid rgb(5, 57, 100);
+}
+.primary_btn {
+    background-color: rgb(97 67 104);
+    border-radius: 10px;
+    color: rgb(254, 255, 255);
+    font-size: 20px;
+    padding: 3px 5px;
+    width: 240px;
+    height: 35px;
+    border: none;
+    margin: 0 40%;
+}
+
+.saveBtn {
+    background-color: rgb(175, 72, 80);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 15px;
+    border: none;
+}
+.cancleBtn{
+    background-color: rgb(6, 64, 70);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 15px;
+    border: none;
+}
+
+.container_home {
+    opacity: 0.2;
+}
+.post_head {
+    margin-top: 32px;
+    padding: 10px;
+    text-align: end
+}
+
+.allpost {
+    width: 50vw;
+    margin: 0 auto;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.5);
+}

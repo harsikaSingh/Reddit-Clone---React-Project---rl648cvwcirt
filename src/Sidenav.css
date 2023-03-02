@@ -1,0 +1,22 @@
+.sidenav{
+    width: 200px;
+    box-shadow: 2px 0px 1px 1px #f4f5fa;
+    padding: 0 10px;
+}
+.sidenav_menu{
+    padding-top: 10px;
+}
+
+.sidenav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.sidenav_link li{
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.sidenav hr{
+    margin: 1em 0;
+    border:  1px solid #f4f5fa;
+}
